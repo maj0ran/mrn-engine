@@ -6,7 +6,7 @@ I just try to make a game/graphics engine once again.
 
 Checked top-level elements may become unchecked again when new sub-level elements are added.
 
-* [ ] Entry Point Structure
+* [x] Entry Point Structure
 * [ ] Logger
 	* [ ] Basic Setup
 	* [ ] Colored Labels
