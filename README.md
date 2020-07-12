@@ -8,12 +8,12 @@ Checked top-level elements may become unchecked again when new sub-level element
 
 * [x] Entry Point Structure
 * [ ] Logger
-	* [ ] Basic Setup
-	* [ ] Colored Labels
-	* [ ] Multithreaded
-	* [ ] Loglevels
+	* [x] Basic Setup
+	* [x] Colored Labels
+	* [x] Multithreaded
+	* [x] Loglevels
+	* [x] Argument passing for various data types
 	* [ ] Runtime configuration
-	* [ ] better argument passings for various data types
 * [ ] Application Layer
 * [ ] Window Layer
 	* [ ] Input

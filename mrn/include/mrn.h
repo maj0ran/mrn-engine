@@ -9,3 +9,4 @@
  */
 
 #include "mrn/application.h"
+#include "mrn/logger.h"
