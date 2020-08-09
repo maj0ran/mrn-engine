@@ -67,5 +67,14 @@ class Event
    //  static EventType type;
 };
 
+class EventBus
+{
+   public:
+      EventBus () = default;
+      ~EventBus () = default;
+   private:
+
+      std::queue<Event> events;
+};
 
 } // namespace mrn
