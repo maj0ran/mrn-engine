@@ -1,4 +1,4 @@
-# SPDX-License-Identifier: GPL-2.0-or-later
+# SPDX-License-Identifier: GPL-2.0-only
 
 incdir_engine = include_directories('../mrn/include')
 incdir_app = include_directories('include')
