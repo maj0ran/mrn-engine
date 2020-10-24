@@ -2,13 +2,13 @@
 
 incdir = include_directories('include/')
 
-add_global_arguments('-Werror', '-Wall', '-Wno-error=unused-function', language : 'cpp')
-
 src = [ 'src/mrn/application.cpp',
 	     'src/mrn/logger.cpp'
       ]
 
 thread_dep = dependency('threads')
+
+glfw_dep = dependency('glfw')
 
 mrnlib = static_library('mrnengine',
 	sources : src,
