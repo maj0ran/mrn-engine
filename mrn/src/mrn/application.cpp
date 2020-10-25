@@ -9,6 +9,7 @@ namespace mrn {
 
 Application::Application ()
 {
+	window = new Window("Game", 800, 600);
 }
 Application::~Application ()
 {
@@ -17,6 +18,8 @@ Application::~Application ()
 void Application::run ()
 {
    while (true) {
+	   glClearColor(1, 0, 1, 1);
+	   glClear(GL_COLOR_BUFFER_BIT);
    }
 }
 

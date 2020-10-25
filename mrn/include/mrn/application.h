@@ -5,6 +5,8 @@
 
 #pragma once
 
+#include "mrn/window.h"
+
 namespace mrn {
 
 class Application
@@ -14,6 +16,10 @@ class Application
    virtual ~Application ();
 
    void run ();
+
+ private:
+
+  Window *window;
 };
 
 } // namespace mrn

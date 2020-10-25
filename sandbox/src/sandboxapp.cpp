@@ -14,7 +14,7 @@
 int main ()
 {
    Sandbox *sandbox = new Sandbox ();
-//   sandbox->run ();
+   sandbox->run ();
    delete sandbox;
 
    auto e = mrn::KeyEventPressed(100);

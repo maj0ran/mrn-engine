@@ -3,14 +3,13 @@
 incdir = include_directories('include/')
 
 src = [ 'src/mrn/application.cpp',
-	     'src/mrn/logger.cpp'
+	     'src/mrn/logger.cpp',
+	     'src/mrn/window.cpp',
       ]
 
 thread_dep = dependency('threads')
 
-glfw_dep = dependency('glfw')
-
 mrnlib = static_library('mrnengine',
 	sources : src,
 	include_directories : incdir,
-	dependencies : thread_dep)
+	dependencies : [thread_dep, glfw_dep, gl_dep])

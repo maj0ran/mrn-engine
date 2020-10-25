@@ -13,6 +13,9 @@ add_global_arguments('-Werror',
 		     '-Wno-error=unused-function',
 		     language : 'cpp')
 
+glfw_dep = dependency('glfw')
+gl_dep = dependency('gl')
+
 subdir('mrn')
 subdir('sandbox')
 # subdir('tests')

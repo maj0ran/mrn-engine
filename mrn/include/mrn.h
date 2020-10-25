@@ -10,3 +10,4 @@
 
 #include "mrn/application.h"
 #include "mrn/logger.h"
+#include "mrn/window.h"
